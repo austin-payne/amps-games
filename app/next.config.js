@@ -1,5 +1,4 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-// const withTM = require('next-transpile-modules')(['@amps-games/core-ui']);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -41,5 +40,4 @@ const nextConfig = {
     },
 };
 
-// module.exports = withTM(nextConfig);
 module.exports = nextConfig;

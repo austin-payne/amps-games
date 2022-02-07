@@ -45,6 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@rsuite/icons", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:1.0.2"],
             ["@types/node", "npm:17.0.15"],
             ["@types/prettier", "npm:2.4.3"],
             ["@types/react", "npm:17.0.39"],
@@ -63,12 +64,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["less-loader", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:10.2.0"],
             ["mini-css-extract-plugin", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:2.5.3"],
             ["next", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:12.0.10"],
-            ["next-transpile-modules", "npm:9.0.0"],
             ["prettier", "npm:2.5.1"],
             ["prettier-plugin-import-sort", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:0.0.7"],
             ["prettier-plugin-packagejson", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:2.2.15"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:17.0.2"],
+            ["react-icons", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:4.3.1"],
             ["react-is", "npm:17.0.2"],
             ["rsuite", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:5.5.2"],
             ["styled-components", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:5.3.3"],
@@ -104,7 +105,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["less-loader", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:10.2.0"],
             ["mini-css-extract-plugin", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:2.5.3"],
             ["next", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:12.0.10"],
-            ["next-transpile-modules", "npm:9.0.0"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:17.0.2"],
             ["react-is", "npm:17.0.2"],
@@ -120,10 +120,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/core-ui/",
           "packageDependencies": [
             ["@amps-games/core-ui", "workspace:packages/core-ui"],
+            ["@rsuite/icons", "virtual:bebb02ae7783e2338fb78a30dfaedcc9c27b4910f04be60d5d92c336a9e07f61f86c62585e7dfd11886fe0e9699286d45c0ba90418fbcb2dcc27cd8af9a2955b#npm:1.0.2"],
             ["@types/react", "npm:17.0.39"],
             ["@types/styled-components", "npm:5.1.22"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:17.0.2"],
+            ["react-icons", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:4.3.1"],
             ["react-is", "npm:17.0.2"],
             ["rsuite", "virtual:bebb02ae7783e2338fb78a30dfaedcc9c27b4910f04be60d5d92c336a9e07f61f86c62585e7dfd11886fe0e9699286d45c0ba90418fbcb2dcc27cd8af9a2955b#npm:5.5.2"],
             ["styled-components", "virtual:bebb02ae7783e2338fb78a30dfaedcc9c27b4910f04be60d5d92c336a9e07f61f86c62585e7dfd11886fe0e9699286d45c0ba90418fbcb2dcc27cd8af9a2955b#npm:5.3.3"],
@@ -707,16 +709,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:39a9945b5a1ea781b78fcdd0ce76152598fc08f6359b417be66fb9fb8d081b5729de826e9b2bd334a6a4e51989cf9698215a49921ea3c4c2966f83c5fb8826f3#npm:1.0.2", {
-          "packageLocation": "./.yarn/__virtual__/@rsuite-icons-virtual-c171b6f252/0/cache/@rsuite-icons-npm-1.0.2-449520f7e3-b90826f888.zip/node_modules/@rsuite/icons/",
+        ["virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:1.0.2", {
+          "packageLocation": "./.yarn/__virtual__/@rsuite-icons-virtual-e59e228703/0/cache/@rsuite-icons-npm-1.0.2-449520f7e3-b90826f888.zip/node_modules/@rsuite/icons/",
           "packageDependencies": [
-            ["@rsuite/icons", "virtual:39a9945b5a1ea781b78fcdd0ce76152598fc08f6359b417be66fb9fb8d081b5729de826e9b2bd334a6a4e51989cf9698215a49921ea3c4c2966f83c5fb8826f3#npm:1.0.2"],
+            ["@rsuite/icons", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:1.0.2"],
+            ["@babel/runtime", "npm:7.17.0"],
             ["@rsuite/icon-font", "npm:4.0.0"],
             ["@types/react", "npm:17.0.39"],
             ["@types/react-dom", "npm:17.0.11"],
             ["classnames", "npm:2.3.1"],
             ["insert-css", "npm:2.0.0"],
             ["lodash", "npm:4.17.21"],
+            ["prop-types", "npm:15.8.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:17.0.2"]
           ],
@@ -728,16 +732,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:62857a6c89ac8cf56efc174a866dae57fbff9823bc448432b9909213c568fc6696b777edc6afedac0e2c95cacf6843d33016ec7a2796f3ace5e92b31889828e5#npm:1.0.2", {
-          "packageLocation": "./.yarn/__virtual__/@rsuite-icons-virtual-918196303b/0/cache/@rsuite-icons-npm-1.0.2-449520f7e3-b90826f888.zip/node_modules/@rsuite/icons/",
+        ["virtual:bebb02ae7783e2338fb78a30dfaedcc9c27b4910f04be60d5d92c336a9e07f61f86c62585e7dfd11886fe0e9699286d45c0ba90418fbcb2dcc27cd8af9a2955b#npm:1.0.2", {
+          "packageLocation": "./.yarn/__virtual__/@rsuite-icons-virtual-9ea66f20ea/0/cache/@rsuite-icons-npm-1.0.2-449520f7e3-b90826f888.zip/node_modules/@rsuite/icons/",
           "packageDependencies": [
-            ["@rsuite/icons", "virtual:62857a6c89ac8cf56efc174a866dae57fbff9823bc448432b9909213c568fc6696b777edc6afedac0e2c95cacf6843d33016ec7a2796f3ace5e92b31889828e5#npm:1.0.2"],
+            ["@rsuite/icons", "virtual:bebb02ae7783e2338fb78a30dfaedcc9c27b4910f04be60d5d92c336a9e07f61f86c62585e7dfd11886fe0e9699286d45c0ba90418fbcb2dcc27cd8af9a2955b#npm:1.0.2"],
+            ["@babel/runtime", "npm:7.17.0"],
             ["@rsuite/icon-font", "npm:4.0.0"],
             ["@types/react", "npm:17.0.39"],
             ["@types/react-dom", null],
             ["classnames", "npm:2.3.1"],
             ["insert-css", "npm:2.0.0"],
             ["lodash", "npm:4.17.21"],
+            ["prop-types", "npm:15.8.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:17.0.2"]
           ],
@@ -4229,17 +4235,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["next-transpile-modules", [
-        ["npm:9.0.0", {
-          "packageLocation": "./.yarn/cache/next-transpile-modules-npm-9.0.0-f224c724ec-9a5d86d80c.zip/node_modules/next-transpile-modules/",
-          "packageDependencies": [
-            ["next-transpile-modules", "npm:9.0.0"],
-            ["enhanced-resolve", "npm:5.8.3"],
-            ["escalade", "npm:3.1.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["nice-try", [
         ["npm:1.0.5", {
           "packageLocation": "./.yarn/cache/nice-try-npm-1.0.5-963856b16f-0b4af3b5bb.zip/node_modules/nice-try/",
@@ -4852,6 +4847,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["react-icons", [
+        ["npm:4.3.1", {
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.3.1-46cb955834-2cc608acdd.zip/node_modules/react-icons/",
+          "packageDependencies": [
+            ["react-icons", "npm:4.3.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:4.3.1", {
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-c853c965f8/0/cache/react-icons-npm-4.3.1-46cb955834-2cc608acdd.zip/node_modules/react-icons/",
+          "packageDependencies": [
+            ["react-icons", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:4.3.1"],
+            ["@types/react", "npm:17.0.39"],
+            ["react", "npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["react-is", [
         ["npm:16.13.1", {
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",
@@ -5057,6 +5074,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["root", "workspace:."],
+            ["@rsuite/icons", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:1.0.2"],
             ["@types/node", "npm:17.0.15"],
             ["@types/prettier", "npm:2.4.3"],
             ["@types/react", "npm:17.0.39"],
@@ -5075,12 +5093,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["less-loader", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:10.2.0"],
             ["mini-css-extract-plugin", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:2.5.3"],
             ["next", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:12.0.10"],
-            ["next-transpile-modules", "npm:9.0.0"],
             ["prettier", "npm:2.5.1"],
             ["prettier-plugin-import-sort", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:0.0.7"],
             ["prettier-plugin-packagejson", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:2.2.15"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:17.0.2"],
+            ["react-icons", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:4.3.1"],
             ["react-is", "npm:17.0.2"],
             ["rsuite", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:5.5.2"],
             ["styled-components", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:5.3.3"],
@@ -5104,7 +5122,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rsuite", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:5.5.2"],
             ["@babel/runtime", "npm:7.17.0"],
             ["@juggle/resize-observer", "npm:3.3.1"],
-            ["@rsuite/icons", "virtual:39a9945b5a1ea781b78fcdd0ce76152598fc08f6359b417be66fb9fb8d081b5729de826e9b2bd334a6a4e51989cf9698215a49921ea3c4c2966f83c5fb8826f3#npm:1.0.2"],
+            ["@rsuite/icons", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:1.0.2"],
             ["@types/chai", "npm:4.3.0"],
             ["@types/lodash", "npm:4.14.178"],
             ["@types/prop-types", "npm:15.7.4"],
@@ -5136,7 +5154,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rsuite", "virtual:bebb02ae7783e2338fb78a30dfaedcc9c27b4910f04be60d5d92c336a9e07f61f86c62585e7dfd11886fe0e9699286d45c0ba90418fbcb2dcc27cd8af9a2955b#npm:5.5.2"],
             ["@babel/runtime", "npm:7.17.0"],
             ["@juggle/resize-observer", "npm:3.3.1"],
-            ["@rsuite/icons", "virtual:62857a6c89ac8cf56efc174a866dae57fbff9823bc448432b9909213c568fc6696b777edc6afedac0e2c95cacf6843d33016ec7a2796f3ace5e92b31889828e5#npm:1.0.2"],
+            ["@rsuite/icons", "virtual:bebb02ae7783e2338fb78a30dfaedcc9c27b4910f04be60d5d92c336a9e07f61f86c62585e7dfd11886fe0e9699286d45c0ba90418fbcb2dcc27cd8af9a2955b#npm:1.0.2"],
             ["@types/chai", "npm:4.3.0"],
             ["@types/lodash", "npm:4.14.178"],
             ["@types/prop-types", "npm:15.7.4"],
@@ -5177,7 +5195,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rsuite-table", "virtual:39a9945b5a1ea781b78fcdd0ce76152598fc08f6359b417be66fb9fb8d081b5729de826e9b2bd334a6a4e51989cf9698215a49921ea3c4c2966f83c5fb8826f3#npm:5.3.2"],
             ["@babel/runtime", "npm:7.17.0"],
             ["@juggle/resize-observer", "npm:3.3.1"],
-            ["@rsuite/icons", "virtual:39a9945b5a1ea781b78fcdd0ce76152598fc08f6359b417be66fb9fb8d081b5729de826e9b2bd334a6a4e51989cf9698215a49921ea3c4c2966f83c5fb8826f3#npm:1.0.2"],
+            ["@rsuite/icons", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:1.0.2"],
             ["@types/prop-types", "npm:15.7.4"],
             ["@types/react", "npm:17.0.39"],
             ["@types/react-dom", "npm:17.0.11"],
@@ -5205,7 +5223,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rsuite-table", "virtual:62857a6c89ac8cf56efc174a866dae57fbff9823bc448432b9909213c568fc6696b777edc6afedac0e2c95cacf6843d33016ec7a2796f3ace5e92b31889828e5#npm:5.3.2"],
             ["@babel/runtime", "npm:7.17.0"],
             ["@juggle/resize-observer", "npm:3.3.1"],
-            ["@rsuite/icons", "virtual:62857a6c89ac8cf56efc174a866dae57fbff9823bc448432b9909213c568fc6696b777edc6afedac0e2c95cacf6843d33016ec7a2796f3ace5e92b31889828e5#npm:1.0.2"],
+            ["@rsuite/icons", "virtual:bebb02ae7783e2338fb78a30dfaedcc9c27b4910f04be60d5d92c336a9e07f61f86c62585e7dfd11886fe0e9699286d45c0ba90418fbcb2dcc27cd8af9a2955b#npm:1.0.2"],
             ["@types/prop-types", "npm:15.7.4"],
             ["@types/react", "npm:17.0.39"],
             ["@types/react-dom", null],

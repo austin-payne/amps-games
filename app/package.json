@@ -29,7 +29,6 @@
         "less": "*",
         "less-loader": "*",
         "mini-css-extract-plugin": "*",
-        "next-transpile-modules": "*",
         "typescript": "*",
         "webpack": "*"
     }

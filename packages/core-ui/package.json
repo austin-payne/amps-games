@@ -8,8 +8,10 @@
         "typecheck": "tsc && echo typecheck success"
     },
     "dependencies": {
+        "@rsuite/icons": "*",
         "react": "*",
         "react-dom": "*",
+        "react-icons": "*",
         "react-is": "*",
         "rsuite": "*",
         "styled-components": "*"
