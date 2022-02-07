@@ -1,0 +1,36 @@
+{
+    "name": "@amps-games/app",
+    "version": "1.0.0",
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+        "dev": "next dev",
+        "build": "yarn typecheck:app && next build",
+        "start": "next start",
+        "lint": "next lint",
+        "typecheck": "tsc && echo typecheck success",
+        "typecheck:app": "yarn workspaces foreach -ptvR run typecheck"
+    },
+    "dependencies": {
+        "@amps-games/core-ui": "workspace:*",
+        "next": "*",
+        "react": "*",
+        "react-dom": "*",
+        "react-is": "*",
+        "styled-components": "*"
+    },
+    "devDependencies": {
+        "@types/node": "*",
+        "@types/react": "*",
+        "@types/react-dom": "*",
+        "@types/styled-components": "*",
+        "babel-plugin-styled-components": "*",
+        "css-loader": "*",
+        "less": "*",
+        "less-loader": "*",
+        "mini-css-extract-plugin": "*",
+        "next-transpile-modules": "*",
+        "typescript": "*",
+        "webpack": "*"
+    }
+}

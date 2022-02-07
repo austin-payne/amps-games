@@ -1,0 +1,22 @@
+{
+    "name": "@amps-games/core-ui",
+    "version": "1.0.0",
+    "private": true,
+    "license": "UNLICENSED",
+    "main": "src/index.ts",
+    "scripts": {
+        "typecheck": "tsc && echo typecheck success"
+    },
+    "dependencies": {
+        "react": "*",
+        "react-dom": "*",
+        "react-is": "*",
+        "rsuite": "*",
+        "styled-components": "*"
+    },
+    "devDependencies": {
+        "@types/react": "*",
+        "@types/styled-components": "*",
+        "typescript": "*"
+    }
+}
